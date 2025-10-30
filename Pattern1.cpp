@@ -1,27 +1,16 @@
 #include <iostream>
 using namespace std;
-int main()
-{
-    int n;
-    cout << "Enter the count" << endl;
-    cin >> n;
-    int a = 1;
-    while (a <= n)
-    {
-        for (int i = 1; i <= a; i++)
-        {
-            cout << "*" << " ";
-        }
 
-        cout << endl;
-        a++;
-    }
-    cout<<endl;
-    while(n!=0){
-        for(int i=n;i>0;i--){
-            cout << "*" << " ";
+int main() {
+    int n;
+    cout << "Enter number of rows: ";
+    cin >> n;
+
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= i; j++) {
+            cout << "* ";
         }
-         cout << endl;
-        n--;
+        cout << endl;
     }
+    return 0;
 }
