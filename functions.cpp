@@ -1,6 +1,12 @@
 #include <iostream>
 using namespace std;
 
+returnType functionName(parameters) {
+    // code
+    return value;   // if needed
+}
+
+
 int main() {
     cout << "Hello!" << endl;
     cout << "Hello!" << endl;
